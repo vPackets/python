@@ -1,0 +1,384 @@
+sudo config vlan add 10
+sudo config vlan member add -u 10 Ethernet0
+sudo config interface startup Ethernet0
+sudo config vlan add 10
+sudo config vlan member add -u 10 Ethernet4
+sudo config interface startup Ethernet4
+sudo config vlan add 10
+sudo config vlan member add -u 10 Ethernet8
+sudo config interface startup Ethernet8
+sudo config vlan add 10
+sudo config vlan member add -u 10 Ethernet12
+sudo config interface startup Ethernet12
+sudo config vlan add 20
+sudo config vlan member add -u 20 Ethernet16
+sudo config interface startup Ethernet16
+sudo config vlan add 20
+sudo config vlan member add -u 20 Ethernet20
+sudo config interface startup Ethernet20
+sudo config vlan add 20
+sudo config vlan member add -u 20 Ethernet24
+sudo config interface startup Ethernet24
+sudo config vlan add 20
+sudo config vlan member add -u 20 Ethernet28
+sudo config interface startup Ethernet28
+sudo config vlan add 30
+sudo config vlan member add -u 30 Ethernet32
+sudo config interface startup Ethernet32
+sudo config vlan add 30
+sudo config vlan member add -u 30 Ethernet36
+sudo config interface startup Ethernet36
+sudo config vlan add 30
+sudo config vlan member add -u 30 Ethernet40
+sudo config interface startup Ethernet40
+sudo config vlan add 30
+sudo config vlan member add -u 30 Ethernet44
+sudo config interface startup Ethernet44
+sudo config vlan add 40
+sudo config vlan member add -u 40 Ethernet48
+sudo config interface startup Ethernet48
+sudo config vlan add 40
+sudo config vlan member add -u 40 Ethernet52
+sudo config interface startup Ethernet52
+sudo config vlan add 40
+sudo config vlan member add -u 40 Ethernet56
+sudo config interface startup Ethernet56
+sudo config vlan add 40
+sudo config vlan member add -u 40 Ethernet60
+sudo config interface startup Ethernet60
+sudo config vlan add 50
+sudo config vlan member add -u 50 Ethernet64
+sudo config interface startup Ethernet64
+sudo config vlan add 50
+sudo config vlan member add -u 50 Ethernet68
+sudo config interface startup Ethernet68
+sudo config vlan add 50
+sudo config vlan member add -u 50 Ethernet72
+sudo config interface startup Ethernet72
+sudo config vlan add 50
+sudo config vlan member add -u 50 Ethernet76
+sudo config interface startup Ethernet76
+sudo config vlan add 60
+sudo config vlan member add -u 60 Ethernet80
+sudo config interface startup Ethernet80
+sudo config vlan add 60
+sudo config vlan member add -u 60 Ethernet84
+sudo config interface startup Ethernet84
+sudo config vlan add 60
+sudo config vlan member add -u 60 Ethernet88
+sudo config interface startup Ethernet88
+sudo config vlan add 60
+sudo config vlan member add -u 60 Ethernet92
+sudo config interface startup Ethernet92
+sudo config vlan add 70
+sudo config vlan member add -u 70 Ethernet96
+sudo config interface startup Ethernet96
+sudo config vlan add 70
+sudo config vlan member add -u 70 Ethernet100
+sudo config interface startup Ethernet100
+sudo config vlan add 70
+sudo config vlan member add -u 70 Ethernet104
+sudo config interface startup Ethernet104
+sudo config vlan add 70
+sudo config vlan member add -u 70 Ethernet108
+sudo config interface startup Ethernet108
+sudo config vlan add 80
+sudo config vlan member add -u 80 Ethernet112
+sudo config interface startup Ethernet112
+sudo config vlan add 80
+sudo config vlan member add -u 80 Ethernet116
+sudo config interface startup Ethernet116
+sudo config vlan add 80
+sudo config vlan member add -u 80 Ethernet120
+sudo config interface startup Ethernet120
+sudo config vlan add 80
+sudo config vlan member add -u 80 Ethernet124
+sudo config interface startup Ethernet124
+sudo config vlan add 90
+sudo config vlan member add -u 90 Ethernet128
+sudo config interface startup Ethernet128
+sudo config vlan add 90
+sudo config vlan member add -u 90 Ethernet132
+sudo config interface startup Ethernet132
+sudo config vlan add 90
+sudo config vlan member add -u 90 Ethernet136
+sudo config interface startup Ethernet136
+sudo config vlan add 90
+sudo config vlan member add -u 90 Ethernet140
+sudo config interface startup Ethernet140
+sudo config vlan add 100
+sudo config vlan member add -u 100 Ethernet144
+sudo config interface startup Ethernet144
+sudo config vlan add 100
+sudo config vlan member add -u 100 Ethernet148
+sudo config interface startup Ethernet148
+sudo config vlan add 100
+sudo config vlan member add -u 100 Ethernet152
+sudo config interface startup Ethernet152
+sudo config vlan add 100
+sudo config vlan member add -u 100 Ethernet156
+sudo config interface startup Ethernet156
+sudo config vlan add 110
+sudo config vlan member add -u 110 Ethernet160
+sudo config interface startup Ethernet160
+sudo config vlan add 110
+sudo config vlan member add -u 110 Ethernet164
+sudo config interface startup Ethernet164
+sudo config vlan add 110
+sudo config vlan member add -u 110 Ethernet168
+sudo config interface startup Ethernet168
+sudo config vlan add 110
+sudo config vlan member add -u 110 Ethernet172
+sudo config interface startup Ethernet172
+sudo config vlan add 120
+sudo config vlan member add -u 120 Ethernet176
+sudo config interface startup Ethernet176
+sudo config vlan add 120
+sudo config vlan member add -u 120 Ethernet180
+sudo config interface startup Ethernet180
+sudo config vlan add 120
+sudo config vlan member add -u 120 Ethernet184
+sudo config interface startup Ethernet184
+sudo config vlan add 120
+sudo config vlan member add -u 120 Ethernet188
+sudo config interface startup Ethernet188
+sudo config vlan add 130
+sudo config vlan member add -u 130 Ethernet192
+sudo config interface startup Ethernet192
+sudo config vlan add 130
+sudo config vlan member add -u 130 Ethernet196
+sudo config interface startup Ethernet196
+sudo config vlan add 130
+sudo config vlan member add -u 130 Ethernet200
+sudo config interface startup Ethernet200
+sudo config vlan add 130
+sudo config vlan member add -u 130 Ethernet204
+sudo config interface startup Ethernet204
+sudo config vlan add 140
+sudo config vlan member add -u 140 Ethernet208
+sudo config interface startup Ethernet208
+sudo config vlan add 140
+sudo config vlan member add -u 140 Ethernet212
+sudo config interface startup Ethernet212
+sudo config vlan add 140
+sudo config vlan member add -u 140 Ethernet216
+sudo config interface startup Ethernet216
+sudo config vlan add 140
+sudo config vlan member add -u 140 Ethernet220
+sudo config interface startup Ethernet220
+sudo config vlan add 150
+sudo config vlan member add -u 150 Ethernet224
+sudo config interface startup Ethernet224
+sudo config vlan add 150
+sudo config vlan member add -u 150 Ethernet228
+sudo config interface startup Ethernet228
+sudo config vlan add 150
+sudo config vlan member add -u 150 Ethernet232
+sudo config interface startup Ethernet232
+sudo config vlan add 150
+sudo config vlan member add -u 150 Ethernet236
+sudo config interface startup Ethernet236
+sudo config vlan add 160
+sudo config vlan member add -u 160 Ethernet240
+sudo config interface startup Ethernet240
+sudo config vlan add 160
+sudo config vlan member add -u 160 Ethernet244
+sudo config interface startup Ethernet244
+sudo config vlan add 160
+sudo config vlan member add -u 160 Ethernet248
+sudo config interface startup Ethernet248
+sudo config vlan add 160
+sudo config vlan member add -u 160 Ethernet252
+sudo config interface startup Ethernet252
+sudo config vlan add 170
+sudo config vlan member add -u 170 Ethernet256
+sudo config interface startup Ethernet256
+sudo config vlan add 170
+sudo config vlan member add -u 170 Ethernet260
+sudo config interface startup Ethernet260
+sudo config vlan add 170
+sudo config vlan member add -u 170 Ethernet264
+sudo config interface startup Ethernet264
+sudo config vlan add 170
+sudo config vlan member add -u 170 Ethernet268
+sudo config interface startup Ethernet268
+sudo config vlan add 180
+sudo config vlan member add -u 180 Ethernet272
+sudo config interface startup Ethernet272
+sudo config vlan add 180
+sudo config vlan member add -u 180 Ethernet276
+sudo config interface startup Ethernet276
+sudo config vlan add 180
+sudo config vlan member add -u 180 Ethernet280
+sudo config interface startup Ethernet280
+sudo config vlan add 180
+sudo config vlan member add -u 180 Ethernet284
+sudo config interface startup Ethernet284
+sudo config vlan add 190
+sudo config vlan member add -u 190 Ethernet288
+sudo config interface startup Ethernet288
+sudo config vlan add 190
+sudo config vlan member add -u 190 Ethernet292
+sudo config interface startup Ethernet292
+sudo config vlan add 190
+sudo config vlan member add -u 190 Ethernet296
+sudo config interface startup Ethernet296
+sudo config vlan add 190
+sudo config vlan member add -u 190 Ethernet300
+sudo config interface startup Ethernet300
+sudo config vlan add 200
+sudo config vlan member add -u 200 Ethernet304
+sudo config interface startup Ethernet304
+sudo config vlan add 200
+sudo config vlan member add -u 200 Ethernet308
+sudo config interface startup Ethernet308
+sudo config vlan add 200
+sudo config vlan member add -u 200 Ethernet312
+sudo config interface startup Ethernet312
+sudo config vlan add 200
+sudo config vlan member add -u 200 Ethernet316
+sudo config interface startup Ethernet316
+sudo config vlan add 210
+sudo config vlan member add -u 210 Ethernet320
+sudo config interface startup Ethernet320
+sudo config vlan add 210
+sudo config vlan member add -u 210 Ethernet324
+sudo config interface startup Ethernet324
+sudo config vlan add 210
+sudo config vlan member add -u 210 Ethernet328
+sudo config interface startup Ethernet328
+sudo config vlan add 210
+sudo config vlan member add -u 210 Ethernet332
+sudo config interface startup Ethernet332
+sudo config vlan add 220
+sudo config vlan member add -u 220 Ethernet336
+sudo config interface startup Ethernet336
+sudo config vlan add 220
+sudo config vlan member add -u 220 Ethernet340
+sudo config interface startup Ethernet340
+sudo config vlan add 220
+sudo config vlan member add -u 220 Ethernet344
+sudo config interface startup Ethernet344
+sudo config vlan add 220
+sudo config vlan member add -u 220 Ethernet348
+sudo config interface startup Ethernet348
+sudo config vlan add 230
+sudo config vlan member add -u 230 Ethernet352
+sudo config interface startup Ethernet352
+sudo config vlan add 230
+sudo config vlan member add -u 230 Ethernet356
+sudo config interface startup Ethernet356
+sudo config vlan add 230
+sudo config vlan member add -u 230 Ethernet360
+sudo config interface startup Ethernet360
+sudo config vlan add 230
+sudo config vlan member add -u 230 Ethernet364
+sudo config interface startup Ethernet364
+sudo config vlan add 240
+sudo config vlan member add -u 240 Ethernet368
+sudo config interface startup Ethernet368
+sudo config vlan add 240
+sudo config vlan member add -u 240 Ethernet372
+sudo config interface startup Ethernet372
+sudo config vlan add 240
+sudo config vlan member add -u 240 Ethernet376
+sudo config interface startup Ethernet376
+sudo config vlan add 240
+sudo config vlan member add -u 240 Ethernet380
+sudo config interface startup Ethernet380
+sudo config vlan add 250
+sudo config vlan member add -u 250 Ethernet384
+sudo config interface startup Ethernet384
+sudo config vlan add 250
+sudo config vlan member add -u 250 Ethernet388
+sudo config interface startup Ethernet388
+sudo config vlan add 250
+sudo config vlan member add -u 250 Ethernet392
+sudo config interface startup Ethernet392
+sudo config vlan add 250
+sudo config vlan member add -u 250 Ethernet396
+sudo config interface startup Ethernet396
+sudo config vlan add 260
+sudo config vlan member add -u 260 Ethernet400
+sudo config interface startup Ethernet400
+sudo config vlan add 260
+sudo config vlan member add -u 260 Ethernet404
+sudo config interface startup Ethernet404
+sudo config vlan add 260
+sudo config vlan member add -u 260 Ethernet408
+sudo config interface startup Ethernet408
+sudo config vlan add 260
+sudo config vlan member add -u 260 Ethernet412
+sudo config interface startup Ethernet412
+sudo config vlan add 270
+sudo config vlan member add -u 270 Ethernet416
+sudo config interface startup Ethernet416
+sudo config vlan add 270
+sudo config vlan member add -u 270 Ethernet420
+sudo config interface startup Ethernet420
+sudo config vlan add 270
+sudo config vlan member add -u 270 Ethernet424
+sudo config interface startup Ethernet424
+sudo config vlan add 270
+sudo config vlan member add -u 270 Ethernet428
+sudo config interface startup Ethernet428
+sudo config vlan add 280
+sudo config vlan member add -u 280 Ethernet432
+sudo config interface startup Ethernet432
+sudo config vlan add 280
+sudo config vlan member add -u 280 Ethernet436
+sudo config interface startup Ethernet436
+sudo config vlan add 280
+sudo config vlan member add -u 280 Ethernet440
+sudo config interface startup Ethernet440
+sudo config vlan add 280
+sudo config vlan member add -u 280 Ethernet444
+sudo config interface startup Ethernet444
+sudo config vlan add 290
+sudo config vlan member add -u 290 Ethernet448
+sudo config interface startup Ethernet448
+sudo config vlan add 290
+sudo config vlan member add -u 290 Ethernet452
+sudo config interface startup Ethernet452
+sudo config vlan add 290
+sudo config vlan member add -u 290 Ethernet456
+sudo config interface startup Ethernet456
+sudo config vlan add 290
+sudo config vlan member add -u 290 Ethernet460
+sudo config interface startup Ethernet460
+sudo config vlan add 300
+sudo config vlan member add -u 300 Ethernet464
+sudo config interface startup Ethernet464
+sudo config vlan add 300
+sudo config vlan member add -u 300 Ethernet468
+sudo config interface startup Ethernet468
+sudo config vlan add 300
+sudo config vlan member add -u 300 Ethernet472
+sudo config interface startup Ethernet472
+sudo config vlan add 300
+sudo config vlan member add -u 300 Ethernet476
+sudo config interface startup Ethernet476
+sudo config vlan add 310
+sudo config vlan member add -u 310 Ethernet480
+sudo config interface startup Ethernet480
+sudo config vlan add 310
+sudo config vlan member add -u 310 Ethernet484
+sudo config interface startup Ethernet484
+sudo config vlan add 310
+sudo config vlan member add -u 310 Ethernet488
+sudo config interface startup Ethernet488
+sudo config vlan add 310
+sudo config vlan member add -u 310 Ethernet492
+sudo config interface startup Ethernet492
+sudo config vlan add 320
+sudo config vlan member add -u 320 Ethernet496
+sudo config interface startup Ethernet496
+sudo config vlan add 320
+sudo config vlan member add -u 320 Ethernet500
+sudo config interface startup Ethernet500
+sudo config vlan add 320
+sudo config vlan member add -u 320 Ethernet504
+sudo config interface startup Ethernet504
+sudo config vlan add 320
+sudo config vlan member add -u 320 Ethernet508
+sudo config interface startup Ethernet508
